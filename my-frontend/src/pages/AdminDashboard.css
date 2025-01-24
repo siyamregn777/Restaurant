@@ -1,0 +1,26 @@
+.admin-dashboard {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .dashboard-section {
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005bb5;
+  }
+  
