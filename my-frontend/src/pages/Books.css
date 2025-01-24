@@ -1,0 +1,39 @@
+/* Center and style the "Books" heading */
+.books-heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Container for the books */
+.books-page {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Add space between books */
+  justify-content: center; /* Center-align books */
+}
+
+/* Individual book item styling */
+.book-item {
+  text-align: center;
+  width: 200px; /* Adjust width as desired */
+}
+
+/* Image styling */
+.book-image {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Smooth zoom on hover */
+}
+
+.book-image:hover {
+  transform: scale(1.05); /* Slightly zoom on hover */
+}
+
+/* Details styling */
+.book-details {
+  margin-top: 10px;
+  color: #555;
+}

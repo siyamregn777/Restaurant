@@ -1,0 +1,41 @@
+/* Cooking.css */
+
+/* Styling the container of video list */
+.cooking-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Styling the video list container to display items horizontally */
+  .video-list {
+    display: flex;               /* Use flexbox to arrange items horizontally */
+    justify-content: center;     /* Center the items horizontally */
+    gap: 20px;                   /* Add space between the video items */
+    flex-wrap: wrap;             /* Allow wrapping to the next line if space is limited */
+    margin-top: 20px;            /* Space above the video list */
+  }
+  
+  /* Styling each video item */
+  .video-item {
+    width: 300px;                /* Set a fixed width for each video item */
+    text-align: center;          /* Center the text */
+    cursor: pointer;             /* Change the cursor to a pointer to indicate clickable items */
+    padding: 10px;               /* Add padding inside each item */
+    border: 1px solid #ccc;      /* Optional: Add a border around each video item */
+    border-radius: 8px;          /* Optional: Add rounded corners */
+    background-color: #f9f9f9;   /* Optional: Add background color to the items */
+    transition: transform 0.3s ease; /* Optional: Add smooth scaling effect on hover */
+  }
+  
+  /* Optional: Hover effect to slightly enlarge the video items */
+  .video-item:hover {
+    transform: scale(1.05);      /* Slightly enlarge the item on hover */
+  }
+  
+  /* Optional: Styling for video player inside each video item */
+  .video-player {
+    width: 100%;                 /* Make the video take up the full width of its container */
+    height: auto;                /* Maintain aspect ratio */
+    border-radius: 4px;          /* Optional: Add rounded corners to the video */
+  }
+  
