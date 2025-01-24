@@ -1,0 +1,24 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "EssetFirst Technologies Trading P.L.C\r 1. Assessment for Front-End Developer Applicants:\r Task: Build a simple webpage that displays a list of users.\r Requirements :\r ● Create a page with a form where a user can enter their name and email.\r When the form is submitted, add the user to a list displayed on the page.\r Style the page to look clean and professional (CSS is a plus, but doesn’t need to be complex).\r Additional Challenge (Optional):\r ● Add validation to ensure users don’t submit empty fields.\r Use JavaScript (or a library, if known) to allow users to edit or delete an entry directly on the\r page.\r Skills Assessed: HTML, CSS, JavaScript, basic DOM manipulation, optional use of frameworks\r (React if known).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "vite": "^6.0.11",
+    "vue": "^3.5.13",
+    "vue-loader": "^17.4.2",
+    "vue-template-compiler": "^2.7.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "@vitejs/plugin-vue": "^5.2.1"
+  }
+}
