@@ -1,0 +1,17 @@
+/* Styles for the AboveFoot component container */
+.above-foot {
+    max-width: 100%;       /* Ensures container does not exceed viewport width */
+    padding: 20px;         /* Adds padding for readability */
+    margin: 0 auto;        /* Centers the container if there's extra space */
+    overflow-x: hidden;    /* Prevents horizontal scrolling within the container */
+    box-sizing: border-box; /* Includes padding within the width */
+}
+
+/* Text styling for readability */
+.above-foot p {
+    line-height: 1.6;      /* Increases line height for better readability */
+    font-size: 1rem;       /* Sets a readable font size */
+    color: #333;           /* Sets text color */
+    text-align: justify;   /* Justifies text for a clean alignment */
+    word-wrap: break-word; /* Prevents long words from causing horizontal scroll */
+}
