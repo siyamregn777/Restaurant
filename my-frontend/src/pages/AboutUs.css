@@ -1,0 +1,59 @@
+/* Basic styling for the About Us container */
+.about-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Center the main heading */
+  .about-us-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Styling for the introductory paragraph */
+  .about-us-intro {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #555;
+    text-align: center;
+  }
+  
+  /* Flex layout for the owner section */
+.owner-section{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+  /* Styling for the owner's photo */
+  .owner-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+  }
+  
+  /* Owner's description styling */
+  .owner-description {
+    max-width: 600px;
+    color: #333;
+  }
+  
+  /* Owner's name styling */
+  .owner-description h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #ac1111;
+  }
+  
+  /* Paragraph styling */
+  .owner-description p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
