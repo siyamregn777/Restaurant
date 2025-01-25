@@ -1,0 +1,107 @@
+/* Container styling */
+.auth-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Toggle button styling */
+  .auth-toggle button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #0073e6;
+    color: white;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .auth-toggle .active {
+    background-color: #005bb5;
+  }
+  
+  /* Form styling */
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .auth-form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* Input fields */
+  .auth-form input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Submit button */
+  .submit-button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Alternative login */
+  .alternative {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .alternative p {
+    margin: 10px 0;
+  }
+  
+  .alternative-button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #db4437; /* Google color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .alternative-button:hover {
+    background-color: #c33b2d;
+  }
+  
+  /* Toggle link */
+  .toggle-link {
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .toggle-link span {
+    color: #0073e6;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
