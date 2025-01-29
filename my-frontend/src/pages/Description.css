@@ -1,0 +1,23 @@
+.description {
+    padding: 20px; /* Adds spacing inside the container to separate content from the edges */
+    background-color: #f9f9f9; /* Sets a light background color to make the section stand out */
+    text-align: center; /* Centers all text horizontally within the section */
+    margin: 30px auto; /* Adds vertical spacing above and below, centers horizontally */
+    max-width: 800px; /* Limits the width to keep the text comfortably readable on wide screens */
+    border-radius: 8px; /* Rounds the corners slightly for a softer look */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds a soft shadow to give depth and separate the section visually */
+  }
+  
+  .description h2 {
+    font-size: 2rem; /* Sets a large font size for the heading to make it prominent */
+    color: #b1c40c; /* Uses a dark color to ensure the heading is readable */
+    margin-bottom: 10px; /* Adds space below the heading to separate it from the paragraph */
+    text-shadow:2px 4px 5px 6px rgba(253, 15, 15, 0.959); /* Adds a subtle text */
+  }
+  
+  .description p {
+    font-size: 1.125rem; /* Sets a slightly larger font size for readability */
+    color: #069e27; /* Uses a medium-dark color for contrast with the background, without overwhelming */
+    line-height: 1.6; /* Increases line spacing for readability, making the text feel less cramped */
+  }
+  
