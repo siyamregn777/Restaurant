@@ -1,0 +1,20 @@
+
+  /* Course.css */
+
+/* Container styling for the list */
+.course {
+    display: flex;               /* Use Flexbox for horizontal alignment */
+    gap: 20px;                   /* Add space between videos */
+    padding: 20px;               /* Optional padding around the section */
+    justify-content: center;     /* Center the videos horizontally */
+    overflow-x: auto;            /* Allow horizontal scrolling if content overflows */
+  }
+  
+  /* Individual video styling */
+  .food-video {
+    width: 200px;                /* Set a fixed width for videos */
+    height: auto;                /* Keep aspect ratio */
+    border-radius: 8px;          /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
