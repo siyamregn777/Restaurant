@@ -1,0 +1,91 @@
+/* Styling for the available section */
+.available {
+  padding: 50px 20px;  /* Adds padding around the entire available section for spacing */
+}
+
+/* Text area that will have the background image */
+.text-area {
+  background-image: url('../images/pexels-valeriya-28307998.jpg');  /* Background image for the section */
+  background-size: cover; /* Ensures the background image covers the entire container */
+  background-position: center; /* Centers the background image */
+  color: rgb(162, 168, 170); /* Sets the text color to white */
+  padding: 50px 20px; /* Adds padding inside the section */
+  text-align: center; /* Centers the text horizontally */
+  margin-bottom: 30px; /* Adds margin to the bottom */
+  border-radius: 8px; /* Rounds the corners of the section */
+}
+
+/* Title above the images */
+.section-title {
+  font-size: 2rem;  /* Sets the font size of the section title */
+  font-weight: bold; /* Makes the title bold */
+  color: rgb(3, 19, 13); /* Sets the text color of the title */
+  text-shadow: 2px 2px 4px rgba(12, 11, 59, 0.5); /* Adds a shadow effect to the title text */
+}
+
+/* Container for the food items to display horizontally */
+.food-list {
+  display: flex; /* Uses flexbox to display the food items in a row */
+  justify-content: space-between; /* Distributes the items with space between them */
+  gap: 10px; /* Sets the gap between the food items */
+  flex-wrap: wrap; /* Allows the items to wrap to the next line if necessary */
+  margin-top: 20px; /* Adds margin to the top */
+}
+
+/* Each food item container */
+.food-item {
+  position: relative; /* Sets the position to relative to enable absolute positioning of the footer */
+  width: 22%; /* Sets the width of each food item to 22% to fit horizontally */
+  text-align: center; /* Centers the text inside each item */
+  margin-bottom: 10px; /* Adds margin at the bottom of each item */
+  transition: transform 0.3s ease-in-out; /* Adds a smooth transition effect when hovered */
+}
+
+/* Food text above the image */
+.food-text {
+  font-size: 1.25rem; /* Sets the font size of the food name */
+  font-weight: bold; /* Makes the food name bold */
+  margin-bottom: 10px; /* Adds margin below the food name */
+  color: #f7a600; /* Sets the color of the food name text */
+  background-color: rgba(0, 0, 0, 0.6); /* Adds a semi-transparent black background to the food name */
+  padding: 10px; /* Adds padding inside the background */
+  border-radius: 5px; /* Rounds the corners of the food name background */
+  width: fit-content; /* Sets the width of the background to fit the content */
+  margin: 0 auto; /* Centers the food name container */
+}
+
+/* Styling for the images */
+.food-image {
+  width: 100%; /* Makes the image take up the full width of its container */
+  height: auto; /* Maintains the aspect ratio of the image */
+  border-radius: 10px; /* Rounds the corners of the image */
+  transition: transform 0.3s ease-in-out; /* Adds a smooth transition effect when hovered */
+}
+
+/* Hover effect on the image */
+.food-item:hover .food-image {
+  transform: scale(1.05); /* Slightly enlarges the image when hovered */
+}
+
+/* Footer text on each image */
+.image-footer {
+  position: absolute; /* Positions the footer absolutely within the food item */
+  bottom: 10px; /* Aligns the footer to the bottom of the food item */
+  left: 50%; /* Centers the footer horizontally */
+  transform: translateX(-50%); /* Offsets the footer to perfectly center it */
+  background-color: rgba(0, 0, 0, 0.6); /* Adds a semi-transparent black background to the footer */
+  padding: 5px 15px; /* Adds padding inside the footer */
+  border-radius: 5px; /* Rounds the corners of the footer */
+}
+
+/* Footer text styling */
+.footer-text {
+  color: white; /* Sets the text color of the footer to white */
+  font-size: 1rem; /* Sets the font size of the footer text */
+  font-weight: bold; /* Makes the footer text bold */
+}
+
+/* Hover effect on the food item */
+.food-item:hover {
+  transform: scale(1.05);  /* Slightly enlarges the entire food item when hovered */
+}
