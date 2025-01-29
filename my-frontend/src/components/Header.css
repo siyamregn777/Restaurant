@@ -1,0 +1,68 @@
+.header {
+  background-color: #246d36;
+  color: white;
+  padding: 10px 20px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu li {
+  margin: 0 15px;
+  position: relative;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.menu li:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #102a2c;
+  border-radius: 5px;
+  min-width: 200px;
+  padding: 10px 0;
+  list-style: none;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+}
+
+.dropdown-menu li a {
+  padding: 5px 15px;
+  display: block;
+}
+
+.menu li:hover > .dropdown-menu {
+  display: block;
+}
+
+.home-link {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
