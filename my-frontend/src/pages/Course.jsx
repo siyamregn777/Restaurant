@@ -1,7 +1,7 @@
 import './Course.css'
 // Sample list of videos (replace with your own video paths or URLs)
-import foodVideos1 from '../videos//12289091_2160_3840_30fps.mp4';
-import foodVideos2 from '../videos//12641663_1920_1080_30fps.mp4';
+import foodVideos1 from '../../public/images/pexels-cachi290-29889498.jpg';
+import foodVideos2 from '../../public/images/pexels-cachi290-29889498.jpg';
 const foodVideos = [
   { src: foodVideos1, alt: 'Food Item 1' },
   { src: foodVideos2, alt: 'Food Item 2' },

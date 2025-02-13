@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './Books.css';
-import bookImage1 from '../images/pexels-chetanvlad-2600204.jpg';
-import bookImage2 from '../images/pexels-dapur-melodi-192125-1109197.jpg';
+import bookImage1 from '../../public/images/pexels-cachi290-29889498.jpg';
+import bookImage2 from '../../public/images/pexels-cachi290-29889498.jpg';
 
 // List of book items with details
 const books = [

@@ -1,0 +1,92 @@
+/* Styling the hero section */
+.hero {
+  background-image: url('../images/pexels-dana-tentis-118658-691114.jpg'); /* Sets a background image */
+  background-size: cover;      /* Ensures the background image covers the entire section */
+  background-position: center; /* Centers the background image */
+  color: white;                /* Sets the text color to white for contrast */
+  text-align: center;          /* Centers text horizontally within the section */
+  padding: 100px 20px;         /* Adds padding on top and bottom (100px), left and right (20px) */
+  height: 100vh;               /* Sets the section to the full height of the viewport */
+  display: flex;               /* Enables flexbox layout for centering content */
+  flex-direction: column;      /* Stacks items (text, button) vertically */
+  justify-content: center;     /* Centers content vertically within the section */
+  align-items: center;         /* Centers content horizontally */
+}
+
+/* Container for h2 and h3 */
+.hero-header {
+  width: 100%;                 /* Sets full width for the container */
+  display: flex;               /* Uses flexbox layout for horizontal alignment */
+  justify-content: space-between; /* Positions <h2> on the left and <h3> on the right */
+  align-items: center;         /* Vertically aligns <h2> and <h3> */
+  padding: 0 20px;             /* Adds padding on the left and right sides for spacing */
+  margin-bottom: 20px;         /* Adds space below the container */
+  
+}
+
+/* Left-aligned h2 */
+.hero-header h2 {
+  font-size: 1.5rem;           /* Sets font size for <h2> */
+  font-weight: bold;           /* Makes <h2> bold */
+  color: #e68900;
+  border-radius: 10px;
+  display: block;
+  padding: 15px;
+  background-color: #13361e
+}
+.hero-header h2:hover{
+  background-color: aqua;
+}
+/* Right-aligned h3 */
+.hero-header h3 {
+  font-size: 1.5rem;           /* Sets font size for <h3> */
+  font-weight: bold;           /* Makes <h3> bold */
+  text-align: right;           /* Aligns the text in <h3> to the right */
+  color: #ff9800;
+  border-radius: 10px;
+  background-color: #091d0c;
+  padding: 15px;
+  margin-left: 65%;
+  display: block;
+  
+}
+.hero-header h3:hover{
+  background-color: aqua;
+}
+/* Styling the main heading */
+.hero h1 {
+  font-size: 3rem;             /* Sets font size for the main heading <h1> */
+  margin-bottom: 20px;         /* Adds space below the heading */
+  font-weight: bold;           /* Makes the heading bold */
+}
+.hero h1:hover{
+  background-color: #091d0c;
+  color: #ff9800;
+  border-radius: 20px;
+  padding: 15px
+}
+/* Styling the paragraph */
+.hero p {
+  font-size: 1.25rem;          /* Sets font size for the paragraph */
+  margin-bottom: 40px;         /* Adds space below the paragraph */
+  color: rgb(227, 241, 245);
+}
+
+/* Styling the button */
+.hero button {
+  padding: 10px 20px;          /* Adds padding inside the button (top/bottom: 10px, left/right: 20px) */
+  font-size: 1rem;             /* Sets font size for the button text */
+  background-color: #ff9800;   /* Sets background color of the button */
+  color: white;                /* Sets text color of the button to white */
+  border: none;                /* Removes button border */
+  cursor: pointer;             /* Shows a pointer cursor when hovering over the button */
+  transition: background-color 0.3s ease; /* Smooth transition effect for color change on hover */
+  max-width: 300px;            /* Limits button width to 300px */
+  width: auto;                 /* Allows button to shrink to fit its content */
+  margin: 0 auto;              /* Centers the button horizontally */
+  display: block;              /* Makes the button a block-level element */
+}
+
+.hero button:hover {
+  background-color: #401ca0;   /* Changes button background color on hover */
+}

@@ -1,10 +1,9 @@
 import './Available.css'; // Importing the CSS file to style the component
-import foodImage1 from '../../imagesimages/pexels-helin-gezer-903013644-25810609.jpg'; // Importing the image for food item 1
-import foodImage2 from '../../imagesimages/pexels-chetanvlad-2600204.jpg'; // Importing the image for food item 2
-import foodImage3 from '../../imagesimages/pexels-karolina-grabowska-4198930(1).jpg'; // Importing the image for food item 3
-import foodImage4 from '../../imagesimages/pexels-helin-gezer-903013644-25810609.jpg'; // Importing the image for food item 4
-// import foodImage5 from '../../public/images/'
-// Defining an array of food objects with image sources and alt text
+import foodImage1 from '../../public/images/pexels-cachi290-29831643.jpg'; // Importing the image for food item 1
+import foodImage2 from '../../public/images/pexels-cachi290-29831643.jpg'; // Importing the image for food item 2
+import foodImage3 from '../../public/images/pexels-cachi290-29831643.jpg'; // Importing the image for food item 3
+import foodImage4 from '../../public/images/pexels-cachi290-29831643.jpg'; 
+
 const foodImages = [
   { src: foodImage1, alt: 'Food Item 1', text: 'Delicious Pizza'}, // First food item with its image and description
   { src: foodImage2, alt: 'Food Item 2', text: 'Tasty Burger' }, // Second food item with its image and description
@@ -12,7 +11,6 @@ const foodImages = [
   { src: foodImage4, alt: 'Food Item 4', text: 'Juicy Steak' }, // Fourth food item with its image and description
 ];
 
-// Defining the Available component that displays the food images and text
 function Available() {
   return (
     <section className="available"> 

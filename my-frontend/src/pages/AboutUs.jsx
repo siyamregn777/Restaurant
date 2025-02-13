@@ -1,5 +1,5 @@
 import './AboutUs.css';
-import ownerPhoto from '../images/FQW15UPFUL.jpg'; // Replace with the actual path to the owner's photo
+import ownerPhoto from '../../public/images/pexels-cachi290-29831643 (1).jpg'; // Replace with the actual path to the owner's photo
 
 function AboutUs() {
   return (
