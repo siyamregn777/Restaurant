@@ -1,7 +1,7 @@
 /* Styles for the AboveFoot component container */
 .above-foot {
     max-width: 100%;       /* Ensures container does not exceed viewport width */
-    padding: 20px;         /* Adds padding for readability */
+    padding: 20px;        
     margin: 0 auto;        /* Centers the container if there's extra space */
     overflow-x: hidden;    /* Prevents horizontal scrolling within the container */
     box-sizing: border-box; /* Includes padding within the width */
