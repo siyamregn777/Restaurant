@@ -4,7 +4,7 @@
     padding: 20px;        
     margin: 0 auto;        /* Centers the container if there's extra space */
     overflow-x: hidden;    /* Prevents horizontal scrolling within the container */
-    box-sizing: border-box; /* Includes padding within the width */
+    box-sizing: border-box; 
 }
 
 .above-foot p {
