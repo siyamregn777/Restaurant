@@ -3,7 +3,6 @@
   padding: 50px 20px;  /* Adds padding around the entire available section for spacing */
 }
 
-/* Text area that will have the background image */
 .text-area {
   background-image: url('../images/pexels-valeriya-28307998.jpg');  /* Background image for the section */
   background-size: cover; /* Ensures the background image covers the entire container */
